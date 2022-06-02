@@ -39,4 +39,5 @@ folium.Choropleth(
     legend_name='Papers Published in LAC'
 ).add_to(my_map)
 
+# Save the map
 my_map.save('papers_lac.html')
