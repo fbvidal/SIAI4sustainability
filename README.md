@@ -26,4 +26,8 @@ How to use:
 
 ```python3 genmapchat.py```
 
-8) For more details and instructions on how to use the application, please refer to Sections below in the README.md file.
+8) To build the maps with the data in the text files extracted from Scopus Export feature, you need to run the following command:
+
+```python3 genmapchat.py```
+
+9) For more details and instructions on how to use the application, please refer to Sections below in the README.md file.
