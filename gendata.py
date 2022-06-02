@@ -4,9 +4,11 @@ import pycountry as pc
 import geopandas as gpd
 import folium
 
-# Loading data (txt) in variable
-with open('data/affiliation-E2.txt') as f:
-    affiliation = f.read()
+# Loading data from CSV file to Pandas DataFrame
+scopus_data = pd.read_csv('data/scopus-newE2.csv')
+
+# Selecting colunms from DataFrame Affiliations and convert to string
+affiliation = str(scopus_data['Affiliations'].tolist())
 
 # Read the geopandas countries dataset list
 world_countries_list = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
