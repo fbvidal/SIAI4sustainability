@@ -30,4 +30,4 @@ folium.Choropleth(
     legend_name='Papers Published'
 ).add_to(my_map)
 
-my_map.save('papers.html')
+my_map.save('papers_all.html')
