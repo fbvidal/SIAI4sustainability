@@ -5,7 +5,7 @@ import geopandas as gpd
 import folium
 
 # Loading data from CSV file to Pandas DataFrame
-scopus_data = pd.read_csv('data/scopus-newE2.csv')
+scopus_data = pd.read_csv('data/E6-scopus.csv')
 
 # Selecting colunms from DataFrame Affiliations and convert to string
 affiliation = str(scopus_data['Affiliations'].tolist())
@@ -38,8 +38,8 @@ folium.Choropleth(
     fill_color='OrRd',
     fill_opacity=0.7,
     line_opacity=0.2,
-    legend_name='Papers Published in LAC'
+    legend_name='Papers Published Scopus Expression E6'
 ).add_to(my_map)
 
 # Save the map
-my_map.save('papers_lac.html')
+my_map.save('papers_scopus_E6.html')
