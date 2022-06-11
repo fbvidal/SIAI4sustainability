@@ -40,4 +40,4 @@ folium.Choropleth(
 ).add_to(my_map)
 
 # Save the map
-my_map.save('out/WoS/papers_scopus_E6.html')
+my_map.save('out/WoS/papers_wos_E6.html')
