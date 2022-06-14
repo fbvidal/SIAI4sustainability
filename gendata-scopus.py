@@ -49,7 +49,7 @@ folium.Choropleth(
     fill_color='OrRd',
     fill_opacity=0.7,
     line_opacity=0.2,
-    legend_name='Papers Published Scopus Expression E3'
+    legend_name='Papers Published Scopus Query E3'
 ).add_to(my_map)
 
 # Save the map
