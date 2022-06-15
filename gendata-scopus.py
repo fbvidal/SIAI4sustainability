@@ -7,7 +7,7 @@ import folium
 
 
 # Loading data from CSV file to Pandas DataFrame (see data folder for more information)
-scopus_data = pd.read_csv('data/Scopus/E3-scopus.csv')
+scopus_data = pd.read_csv('data/Scopus/E6-scopus.csv')
 
 # Selecting colunms from DataFrame Affiliations and convert to string
 affiliation = str(scopus_data['Affiliations'].tolist())
@@ -49,8 +49,8 @@ folium.Choropleth(
     fill_color='OrRd',
     fill_opacity=0.7,
     line_opacity=0.2,
-    legend_name='Papers Published Scopus Query E3'
+    legend_name='Papers Published Scopus Query Q6'
 ).add_to(my_map)
 
 # Save the map
-my_map.save('out/Scopus/papers_scopus_E3.html')
+my_map.save('out/Scopus/papers_scopus_Q6.html')

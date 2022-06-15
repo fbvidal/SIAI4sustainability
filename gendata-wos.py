@@ -43,8 +43,8 @@ folium.Choropleth(
     fill_color='OrRd',
     fill_opacity=0.7,
     line_opacity=0.2,
-    legend_name='Papers Published WoS Query E6'
+    legend_name='Papers Published WoS Query Q6'
 ).add_to(my_map)
 
 # Save the map
-my_map.save('out/WoS/papers_wos_E6.html')
+my_map.save('out/WoS/papers_wos_Q6.html')
