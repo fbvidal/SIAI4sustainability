@@ -34,4 +34,4 @@ How to use:
 
 10) To cite the application, please refer to bibtex entry below:
 
-TBD.
+TBA.
