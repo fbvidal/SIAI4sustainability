@@ -22,12 +22,16 @@ How to use:
 
 ```pip3 install -r requirements.txt```
 
-7) Run the following command to run the application and build maps with the data in the csv files:
+7) Run the following command to run the application and build maps with the data in the csv files from Scopus:
 
-```python3 genmapchat.py```
+```python3 gendata-scopus.py```
 
-8) To build the maps with the data in the text files extracted from Scopus Export feature, you need to run the following command:
+8) To build the maps with the data in the text files extracted from Web of Science, you need to run the following command:
 
-```python3 genmapchat.py```
+```python3 gendata-wos.py```
 
-9) For more details and instructions on how to use the application, please refer to Sections below in the README.md file.
+9) For more details and instructions on how to use the application, please refer to instructions in the comments inside of the *.py files available in the repository.
+
+10) To cite the application, please refer to bibtex entry below:
+
+TBD.
