@@ -5,7 +5,7 @@ import geopandas as gpd
 import folium
 
 # Loading data from WoS standard exported txt files 
-with open('data/WoS/E6.txt', 'r') as f:
+with open('data/WoS/Q6.txt', 'r') as f:
     wos_data = f.read()
 
 # Read the geopandas countries dataset list
