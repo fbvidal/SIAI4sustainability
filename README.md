@@ -34,4 +34,19 @@ How to use:
 
 10) To cite the application, please refer to bibtex entry below:
 
-TBA.
+As plain text:
+
+J. Salas, G. Patterson and F. de Barros Vidal, "A Systematic Mapping of Artificial Intelligence Solutions for Sustainability Challenges in Latin America and the Caribbean," in IEEE Latin America Transactions, vol. 20, no. 11, pp. 2312-2329, Nov. 2022, doi: 10.1109/TLA.2022.9904756.
+
+As BibTex:
+```
+@ARTICLE{9904756,
+  author={Salas, Joaquin and Patterson, Genevieve and de Barros Vidal, Flavio},
+  journal={IEEE Latin America Transactions}, 
+  title={A Systematic Mapping of Artificial Intelligence Solutions for Sustainability Challenges in Latin America and the Caribbean}, 
+  year={2022},
+  volume={20},
+  number={11},
+  pages={2312-2329},
+  doi={10.1109/TLA.2022.9904756}}
+```
